@@ -1,0 +1,311 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation panel */
+
+.navigation-bar {
+    background-color: #E5E5E5;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive; 
+    color: #DC143C;
+    font-size: 50px;
+    padding-left: 2%;
+}
+
+.navigation-links {
+    font-family: 'Sansita', sans-serif;
+    color: #000000;
+    font-size: 30px;
+    padding-right: 2%;
+}
+
+.navigation-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-links li {
+    display: inline-block;
+}
+
+.navigation-links a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #222222;
+    padding: 0px 7.5px;
+    transition: color 0.2s ease-in-out;
+}
+
+.navigation-links a:hover {
+    color: #DC143C;
+}
+
+/* Headline & main content */
+
+.headline {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sansita', sans-serif;
+    font-size: 42.5px;
+}
+
+.main {
+    position: relative;
+}
+
+.careers-main-background {
+    width: 100%;
+    display: block;
+}
+
+.main-text {
+    position: absolute;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000000;
+    font-family: 'Asap', sans-serif;
+    font-size: 32.5px;
+    font-weight: 500;
+    line-height: 1.25;
+    white-space: pre-wrap;
+    bottom: 5%;
+    left: 50px;
+    padding-bottom: 20px;
+}
+
+.careers-main-photo {
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    left: 70%;
+    bottom: 35%;
+}
+
+.careers-main-button {
+    position: absolute;
+    cursor: pointer;
+    border: 2px solid #FFFFFF;
+    bottom: 15%;
+    left: 81.5%;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000000;
+    font-family: 'Sansita', sans-serif;
+    font-size: 25px;
+    padding: 10px 60px;
+    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.careers-main-button:hover {
+    color: #A9A9A9;
+    border-color: #A9A9A9;
+}
+
+/* Job offers */
+
+.careers-offers {
+    position: relative;
+    width: 100%;
+    height: 65vh;
+}
+
+.careers-offers-headline {
+    color: #DC143C;
+    font-size: 40px;
+    font-family: 'Sansita', sans-serif;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.careers-offers-list {
+    padding-top: 75px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Asap', sans-serif;
+}
+
+.careers-single-offer-hr {
+    width: 18vw;
+    height: 2px;
+    background-color: #000000;
+}
+
+.careers-single-offer-headline {
+    color: #DC143C;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 0px;
+}
+
+.careers-single-offer-city {
+    color: #DC143C;
+    font-size: 20px;
+}
+
+.careers-single-offer-description {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    line-height: 1.25;
+}
+
+/* Benefits and perks */
+
+.careers-benefits {
+    position: relative;
+    background-color: #DC143C;
+    color: #DC143C;
+    width: 100%;
+    height: 80vh;
+}
+
+.careers-benefits-list {
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-evenly;
+    font-family: 'Asap', sans-serif;
+}
+
+.careers-single-benefit {
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 300px;
+}
+
+.careers-single-benefit-headline { 
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.careers-single-benefit svg {
+    padding-top: 30px;
+    padding-left: 150px;
+}
+
+.careers-single-benefit-description {
+    text-align: justify;
+    font-size: 17.5px;
+    width: 370px;
+    margin: 15px auto;
+}
+
+/* Contact */
+
+.contact {
+    position: relative;
+    background-color: #FFFFFF;
+    height: 300px;
+}
+
+.contact-headline {
+    background-color: #FFFFFF;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sansita', sans-serif;
+    font-size: 42.5px;
+}
+
+.contact-button {
+    position: absolute;
+    left: 40%;
+    top: 45%;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Sansita', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #DC143C;
+    padding: 25px 75px;
+    border: 2px solid #DC143C;
+    background-color: #FFFFFF;
+    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.contact-button:hover {
+    color: #EB2D53;
+    border-color: #EB2D53;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    place-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    width: 100%;
+    height: 27vh;
+    background-color: #E5E5E5;
+    font-family: 'Sansita', sans-serif;
+    font-size: 35px;
+}
+
+.footer-newsletter {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-newsletter-headline {
+    padding: 5px 0px;
+}
+
+.footer-newsletter input {
+    width: 18vw;
+    padding: 10px 10px;
+    font-family: 'Sansita', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    outline: none;
+    margin: 5px 0px;
+}
+
+.footer-newsletter #btn {
+    cursor: pointer;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: #DC143C;
+    border-radius: 40px;
+}
+
+.footer-newsletter #btn:hover {
+    background-color: #EB2D53;
+}
+
+.footer-vertical-line {
+    height: 21.5vh;
+    width: 2px;
+    background-color: #000000;
+}
+
+.footer-copyright {
+    text-align: left;
+}
+
+.footer-copyright a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.footer-copyright a:hover {
+    color: #DC143C;
+}

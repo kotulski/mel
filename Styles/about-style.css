@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation panel */
+
+.navigation-bar {
+    background-color: #E5E5E5;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive; 
+    color: #DC143C;
+    font-size: 50px;
+    padding-left: 2%;
+}
+
+.navigation-links {
+    font-family: 'Sansita', sans-serif;
+    color: #000000;
+    font-size: 30px;
+    padding-right: 2%;
+}
+
+.navigation-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-links li {
+    display: inline-block;
+}
+
+.navigation-links a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #222222;
+    padding: 0px 7.5px;
+    transition: color 0.2s ease-in-out;
+}
+
+.navigation-links a:hover {
+    color: #DC143C;
+}
+
+/* Headline & main content */
+
+.headline {
+    background-color: #DC143C;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000000;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sansita', sans-serif;
+    font-size: 42.5px;
+}
+
+.main {
+    position: relative;
+    height: 370px;
+    background-color: #DC143C;
+}
+
+.main-headline {
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000000;
+    font-family: 'Asap', sans-serif;
+    font-size: 32.5px;
+}
+
+.main-photos {
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.main-photo-first {
+    width: 525px;
+    height: 300px;
+}
+
+.main-photo-second {
+    width: 475px;
+    height: 600px;
+}
+
+.main-photo-third {
+    width: 525px;
+    height: 300px;
+}
+
+/* About us */
+
+.about-us-headline {
+    background-color: #FFFFFF;
+    color: #000000;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sansita', sans-serif;
+    font-size: 42.5px;
+    margin-top: 320px;
+}
+
+.about-us {
+    font-family: 'Asap', sans-serif;
+    font-size: 25px;
+    color: #DC143C;
+}
+
+.about-us-first {
+    margin-top: 75px;
+    padding-left: 15%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.about-us-first-text {
+    text-align: justify;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us-first-text-part-one {
+    padding-bottom: 15%;
+}
+
+.about-us-first-photo {
+    width: 500px;
+    height: 750px;
+}
+
+.about-us-second {
+    margin-top: 100px;
+    padding-left: 15%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.about-us-second-photo {
+    width: 500px;
+    height: 750px;
+}
+
+.about-us-second-text {
+    text-align: right;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us-second-text-part-one {
+    padding-bottom: 15%;
+}
+
+.about-us-third {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 15%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.about-us-third-text {
+    text-align: justify;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us-third-text-part-one {
+    padding-bottom: 15%;
+}
+
+.about-us-third-photo {
+    width: 500px;
+    height: 750px;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    place-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    width: 100%;
+    height: 27vh;
+    background-color: #E5E5E5;
+    font-family: 'Sansita', sans-serif;
+    font-size: 35px;
+}
+
+.footer-newsletter {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-newsletter-headline {
+    padding: 5px 0px;
+}
+
+.footer-newsletter input {
+    width: 18vw;
+    padding: 10px 10px;
+    font-family: 'Sansita', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    outline: none;
+    margin: 5px 0px;
+}
+
+.footer-newsletter #btn {
+    cursor: pointer;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: #DC143C;
+    border-radius: 40px;
+}
+
+.footer-newsletter #btn:hover {
+    background-color: #EB2D53;
+}
+
+.footer-vertical-line {
+    height: 21.5vh;
+    width: 2px;
+    background-color: #000000;
+}
+
+.footer-copyright {
+    text-align: left;
+}
+
+.footer-copyright a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.footer-copyright a:hover {
+    color: #DC143C;
+}

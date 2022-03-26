@@ -1,0 +1,450 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation panel */
+
+.navigation-bar {
+    background-color: #E5E5E5;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive; 
+    color: #DC143C;
+    font-size: 50px;
+    padding-left: 2%;
+}
+
+.navigation-links {
+    font-family: 'Sansita', sans-serif;
+    color: #000000;
+    font-size: 30px;
+    padding-right: 2%;
+}
+
+.navigation-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-links li {
+    display: inline-block;
+}
+
+.navigation-links a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #222222;
+    padding: 0px 7.5px;
+    transition: color 0.2s ease-in-out;
+}
+
+.navigation-links a:hover {
+    color: #DC143C;
+}
+
+/* Headline & main content */
+
+.headline {
+    background-color: #DC143C;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000000;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sansita', sans-serif;
+    font-size: 42.5px;
+}
+
+.main {
+    position: relative;
+    height: 600px;
+    background-color: #DC143C;
+}
+
+.main-text {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 40%);
+    text-shadow: 1px 1px 1px #000000;
+    color: #FFFFFF;
+    font-family: 'Asap', sans-serif;
+    font-size: 32.5px;
+}
+
+.main-description-first {
+    text-align: center;
+}
+
+.main-description-second {
+    padding-top: 75px;
+    padding-left: 25px;
+    width: 700px;
+    height: 135px;
+}
+
+.main-description-third {
+    padding-top: 75px;
+    padding-left: 25px;
+    width: 700px;
+    height: 105px;
+}
+
+.main-headline {
+    font-weight: bold;
+    text-align: center;
+}
+
+.team-main-first {
+    width: 525px;
+    height: 350px;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+
+.team-main-second {
+    position: absolute;
+    width: 525px;
+    height: 320px;
+    left: 70%;
+    top: 37.5%;
+}
+
+/* Team */
+
+.team {
+    position: relative;
+    width: 100%;
+    height: 110vh;
+    font-family: 'Sansita', sans-serif;
+}
+
+.team-headline {
+    background-color: #FFFFFF;
+    color: #000000;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sansita', sans-serif;
+    font-size: 42.5px;
+}
+
+.employees-first-line {
+    display: flex;
+    font-family: 'Asap', sans-serif;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.employees-second-line {
+    display: flex;
+    font-family: 'Asap', sans-serif;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.employee-profile img {
+    display: block;
+}
+
+.first-employee-color {
+    height: 15px;
+    background-color: #884EA0
+}
+
+.second-employee-color {
+    height: 15px;
+    background-color: #2980B9;
+}
+
+.third-employee-color {
+    height: 15px;
+    background-color: #2ECC71;
+}
+
+.fourth-employee-color {
+    height: 15px;
+    background-color: #DC7633;
+}
+
+.fifth-employee-color {
+    height: 15px;
+    background-color: #247D54;
+}
+
+.sixth-employee-color {
+    height: 15px;
+    background-color: #CAD519;
+}
+
+.seventh-employee-color {
+    height: 15px;
+    background-color: #2F19D5;
+}
+
+.eighth-employee-color {
+    height: 15px;
+    background-color: #19D5AC;
+}
+
+.employee-name {
+    color: #DC143C;
+    font-size: 25px;
+    padding: 2.5px 0px;
+}
+
+.employee-description {
+    line-height: 1.25;
+}
+
+/* Our values */
+
+.our-values {
+    position: relative;
+    height: 73vh;
+}
+
+.our-values-headline {
+    background-color: #FFFFFF;
+    color: #000000;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sansita', sans-serif;
+    font-size: 42.5px;
+}
+
+.first-line-circles {
+    padding-top: 25px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.second-line-circles {
+    padding-top: 75px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.first-value-circle {
+    background-color: #4125BE;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.first-value-circle svg {
+    padding: 25px 25px;
+}
+
+.first-value-circle-headline {
+    font-family: 'Asap', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.second-value-circle {
+    background-color: #2ECC71;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.second-value-circle svg {
+    padding: 25px 25px;
+}
+
+.second-value-circle-headline {
+    font-family: 'Asap', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.third-value-circle {
+    background-color: #F69D04;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.third-value-circle svg {
+    padding: 25px 25px;
+}
+
+.third-value-circle-headline {
+    font-family: 'Asap', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.fourth-value-circle {
+    background-color: #63D4F8;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.fourth-value-circle svg {
+    padding: 25px 25px;
+}
+
+.fourth-value-circle-headline {
+    font-family: 'Asap', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.fifth-value-circle {
+    background-color: #F8636C;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.fifth-value-circle svg {
+    padding: 25px 25px;
+}
+
+.fifth-value-circle-headline {
+    font-family: 'Asap', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+/* Contact */
+
+.contact {
+    position: relative;
+    background-color: #DC143C;
+    height: 300px;
+}
+
+.contact-headline {
+    background-color: #DC143C;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000000;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sansita', sans-serif;
+    font-size: 42.5px;
+}
+
+.contact-button {
+    position: absolute;
+    left: 40%;
+    top: 45%;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Sansita', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000000;
+    padding: 25px 75px;
+    border: 2px solid #FFFFFF;
+    background-color: #DC143C;
+    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.contact-button:hover {
+    color: #A9A9A9;
+    border-color: #A9A9A9;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    place-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    width: 100%;
+    height: 27vh;
+    background-color: #E5E5E5;
+    font-family: 'Sansita', sans-serif;
+    font-size: 35px;
+}
+
+.footer-newsletter {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-newsletter-headline {
+    padding: 5px 0px;
+}
+
+.footer-newsletter input {
+    width: 18vw;
+    padding: 10px 10px;
+    font-family: 'Sansita', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    outline: none;
+    margin: 5px 0px;
+}
+
+.footer-newsletter #btn {
+    cursor: pointer;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: #DC143C;
+    border-radius: 40px;
+}
+
+.footer-newsletter #btn:hover {
+    background-color: #EB2D53;
+}
+
+.footer-vertical-line {
+    height: 21.5vh;
+    width: 2px;
+    background-color: #000000;
+}
+
+.footer-copyright {
+    text-align: left;
+}
+
+.footer-copyright a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.footer-copyright a:hover {
+    color: #DC143C;
+}
